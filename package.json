@@ -1,8 +1,8 @@
 {
-  "name": "hexo-theme-foundation",
+  "name": "hexo-theme-min",
   "repository" :
   { "type" : "git"
-  , "url" : "https://github.com/chrisjlee/hexo-theme-zurb-foundation.git"
+  , "url" : "https://github.com/evle/min.git"
   },
   "version": "0.1.0",
   "devDependencies": {

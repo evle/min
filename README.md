@@ -1,6 +1,6 @@
 # Min
 
-Min is a elegant theme [Hexo](http://hexo.io/) theme, create with [Zurb Foundation 5+] and [Sass]().
+Min is a elegant theme [Hexo](http://hexo.io/) theme, create with [Zurb Foundation 5+]() and [Sass]().
 
 - [Live Demo](http://evle.github.io)
 

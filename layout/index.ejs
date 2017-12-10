@@ -1,3 +1,27 @@
-<%- partial('_partial/archive', {pagination: 2, index: true}) %>
+<section>
+  <% page.posts.each(function (post) { %>
+  
+  <div class="card card-width">
+    <article class="card-body">
+      <div class="card-title">
+        <a class="card-link" href="<%- url_for(post.path) %>">
+          <%= post.title %>
+        </a>
+      </div>
+
+      <div class="card-text">
+        <%- post.more %>
+      </div>
+
+      <div class="card-text">
+        <%- date(post.date, "YYYY-MM-DD") %>
+      </div>
+
+    </article>
+
+    </div>
+    <% }) %>
 
 
+</section>
+<%- partial('_partial/pagination') %>

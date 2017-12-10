@@ -2,25 +2,12 @@
 menu:
   Home: /
   Archives: /archives
-rss: /atom.xml
+  Category: /category/
+  Search: /search
+  About: /about/
 
-# Content
-excerpt_link: Read More
-fancybox: true
+favicon: /images/favicon.ico
 
-# Sidebar
-sidebar: right
-widgets:
-- category
-- tag
-- tagcloud
-- archive
-- recent_posts
-
-# Miscellaneous
-google_analytics:
-favicon: /favicon.png
-twitter:
-google_plus:
-fb_admins:
-fb_app_id:
+GitHub: https://github.com/evle
+  
+  

@@ -1,0 +1,20 @@
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.5em; }
+
+body {
+  background-color: #eedede; }
+
+header {
+  border: 2px #e205bd solid; }
+
+.mt-15 {
+  margin-top: 2em; }
+
+footer {
+  padding: 1.2em; }
+
+.card-width {
+  width: 60em; }

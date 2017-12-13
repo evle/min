@@ -1,10 +1,16 @@
-$banner-color: blue;
+$banner-color: rgba(10, 10, 27, 0.815);
 
-$a-color: black;
+.logo{
+    margin-left: 14em;
+}
+
 header{
- background-color: $banner-color    
+ background-color: $banner-color;   
+height: 5em;
+nav{
+   margin-right: 14em; 
 }
 
-.hs{
-    background-color: $a-color
 }
+
+

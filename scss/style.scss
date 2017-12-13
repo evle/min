@@ -1,3 +1,6 @@
+@import "header";
+@import "footer";
+
 $h1-size: 2em;
 $h2-size: 1.5em;
 $h3-size: 1.17em;
@@ -15,24 +18,12 @@ body{
     background-color: $min-background-color;
 }
 
-
-header{
-    border: 2px rgb(226, 5, 189) solid;
-  
-  }
-  
-  // pagenation
-  .mt-15{
-    margin-top: 2em;
-  }
-
-
-// footer
-footer{
-    padding: 1.2em;
-    // margin-top: 2em;
-
+background-color{
+    background-color: #e2f092;
 }
+
+
+
 
 //   index
 .card-width{
@@ -40,3 +31,7 @@ footer{
     
     } 
 
+
+    .t{
+        border: 2px solid red;
+    }

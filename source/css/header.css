@@ -1,5 +1,8 @@
-header {
-  background-color: blue; }
+.logo {
+  margin-left: 14em; }
 
-.hs {
-  background-color: black; }
+header {
+  background-color: rgba(10, 10, 27, 0.815);
+  height: 5em; }
+  header nav {
+    margin-right: 14em; }

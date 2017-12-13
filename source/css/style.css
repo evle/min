@@ -1,3 +1,16 @@
+.logo {
+  margin-left: 14em; }
+
+header {
+  background-color: rgba(10, 10, 27, 0.815);
+  height: 5em; }
+  header nav {
+    margin-right: 14em; }
+
+footer {
+  height: 8em;
+  background-color: rgba(10, 10, 27, 0.815); }
+
 h1 {
   font-size: 2em; }
 
@@ -7,14 +20,11 @@ h2 {
 body {
   background-color: #eedede; }
 
-header {
-  border: 2px #e205bd solid; }
-
-.mt-15 {
-  margin-top: 2em; }
-
-footer {
-  padding: 1.2em; }
+background-color {
+  background-color: #e2f092; }
 
 .card-width {
   width: 60em; }
+
+.t {
+  border: 2px solid red; }

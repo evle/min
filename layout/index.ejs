@@ -1,7 +1,10 @@
+
 <section class="d-flex flex-column align-items-center background-color">
+
+
   <% page.posts.each(function (post) { %>
   
-  <div class="card card-width">
+  <div id="d-article" class="card card-width">
     <article class="card-body">
       <div class="card-title">
         <a class="card-link" href="<%- url_for(post.path) %>">
@@ -21,7 +24,5 @@
 
     </div>
     <% }) %>
-
-
 </section>
-<%- partial('_partial/pagination') %>
+

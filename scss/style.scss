@@ -9,18 +9,20 @@ $h5-size: .83em;
 $h6-size: .75em;
 
 
-$min-background-color: rgb(238, 222, 222);
+$min-background-color:#eeeeee;
 
 h1{ font-size: $h1-size}
 h2{ font-size: $h2-size}
 
-body{
-    background-color: $min-background-color;
+.article{
+    background: $min-background-color;
+    margin-bottom: 0em;
 }
 
 background-color{
     background-color: #e2f092;
 }
+
 
 
 
@@ -35,3 +37,9 @@ background-color{
     .t{
         border: 2px solid red;
     }
+
+#d-article{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.2), 0 1px 6px 0 rgba(0,0,0,.19)
+}
